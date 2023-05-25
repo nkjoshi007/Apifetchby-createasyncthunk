@@ -15,7 +15,7 @@ function App() {
           <h1 style={{textAlign:"center"}}>Account Details</h1>
       {data.map((items) => (
         <>
-        <div style={{textAlign:"center"}}>
+        <div className="Account_details" style={{textAlign:"center"}}>
         <label><strong>Name:</strong></label>
         <input type="text" style={{margin:"10px",border:"none"}} value={items.name}/>
         <label><strong>Email:</strong></label>
